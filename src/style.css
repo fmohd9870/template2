@@ -1,5 +1,4 @@
 body{
-    overflow-y: hidden;
     margin: 0px;
 }
 .header {
@@ -41,10 +40,12 @@ margin-top: -16px;
 }
 .content{
   overflow: hidden;
+  background-color: #e0e0e0;
 }
 .left_section{
   float: left;
   width: 70%;
+  background-color: #fff;
 }
 .left_section h2, .right_section h2{
   padding-left: 10px;
@@ -58,11 +59,11 @@ margin-top: -16px;
 background-color: #e0e0e0;
 width: 28%;
 float: right;
-padding-bottom: 54vh;
 }
 .footer{
-  bottom: 10px;
-  margin-top: -15px;
+position: fixed;
+width: 100%;
+margin-top: -15px;
 background-color: #CCCCCC;
 }
 .footer p{
